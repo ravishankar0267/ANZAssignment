@@ -129,38 +129,6 @@
             endingLineNumber = "87"
             landmarkName = "downloadImageIfNotExist(indexPath:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ANZAssignment.ViewController.downloadImageIfNotExist(indexPath: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "ANZAssignment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ravimishra/Desktop/untitled%20folder%202/ANZAssignment/ANZAssignment/Controller/ViewController.swift"
-                  timestampString = "546286721.446295"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "87"
-                  endingLineNumber = "87"
-                  offsetFromSymbolStart = "1956">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__ObjC.UIImage&gt;, Swift.Bool) -&gt; () in ANZAssignment.ViewController.downloadImageIfNotExist(indexPath: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "ANZAssignment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ravimishra/Desktop/untitled%20folder%202/ANZAssignment/ANZAssignment/Controller/ViewController.swift"
-                  timestampString = "546286721.44999"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "88"
-                  endingLineNumber = "88"
-                  offsetFromSymbolStart = "240">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -177,6 +145,20 @@
             endingLineNumber = "133"
             landmarkName = "collectionView(_:layout:sizeForItemAt:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ANZAssignment/Controller/ListViewController.swift"
+            timestampString = "546517747.34356"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

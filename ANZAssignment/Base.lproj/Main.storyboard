@@ -89,7 +89,6 @@
                     <navigationItem key="navigationItem" id="XiQ-ED-biQ"/>
                     <connections>
                         <outlet property="collectionView" destination="Kpv-64-oai" id="4FP-gl-4FX"/>
-                        <segue destination="9DP-g9-CVG" kind="show" identifier="" id="L8b-H8-idX"/>
                         <segue destination="WEb-vS-NGv" kind="show" identifier="DetailViewSegue" id="zlz-Pl-BYX"/>
                     </connections>
                 </viewController>
@@ -114,60 +113,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lm8-GX-oLf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-270" y="71"/>
-        </scene>
-        <!--List View Controller-->
-        <scene sceneID="9nC-A7-duA">
-            <objects>
-                <viewController id="9DP-g9-CVG" customClass="ListViewController" customModule="ANZAssignment" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="rcz-ZT-cI4"/>
-                        <viewControllerLayoutGuide type="bottom" id="GYJ-iy-Ioq"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ubS-Zx-1d5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Avs-lK-fbC">
-                                <rect key="frame" x="0.0" y="72" width="375" height="595"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="No_Image_Available" translatesAutoresizingMaskIntoConstraints="NO" id="E8f-k3-cYp">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="178.5"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="edwfefefferf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxZ-oU-woT">
-                                        <rect key="frame" x="0.0" y="178.5" width="375" height="416.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="E8f-k3-cYp" firstAttribute="top" secondItem="Avs-lK-fbC" secondAttribute="top" id="1Mj-OO-Eiz"/>
-                                    <constraint firstAttribute="trailing" secondItem="PxZ-oU-woT" secondAttribute="trailing" id="4Cs-f0-QmD"/>
-                                    <constraint firstItem="PxZ-oU-woT" firstAttribute="height" secondItem="Avs-lK-fbC" secondAttribute="height" multiplier="70:100" id="MdN-V2-l0i"/>
-                                    <constraint firstItem="PxZ-oU-woT" firstAttribute="leading" secondItem="Avs-lK-fbC" secondAttribute="leading" id="Rf1-3G-Nb4"/>
-                                    <constraint firstAttribute="bottom" secondItem="PxZ-oU-woT" secondAttribute="bottom" id="TGZ-ae-fgT"/>
-                                    <constraint firstItem="E8f-k3-cYp" firstAttribute="height" secondItem="Avs-lK-fbC" secondAttribute="height" multiplier="30:100" id="lb7-Jf-UFy"/>
-                                    <constraint firstItem="E8f-k3-cYp" firstAttribute="leading" secondItem="Avs-lK-fbC" secondAttribute="leading" id="rHD-CO-dPx"/>
-                                    <constraint firstAttribute="trailing" secondItem="E8f-k3-cYp" secondAttribute="trailing" id="wXe-Jq-BAV"/>
-                                </constraints>
-                                <variation key="heightClass=compact-widthClass=compact" axis="horizontal"/>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="GYJ-iy-Ioq" firstAttribute="top" secondItem="Avs-lK-fbC" secondAttribute="bottom" id="8D8-ni-JkM"/>
-                            <constraint firstItem="Avs-lK-fbC" firstAttribute="top" secondItem="rcz-ZT-cI4" secondAttribute="bottom" constant="8" id="QC1-Kj-EEj"/>
-                            <constraint firstItem="Avs-lK-fbC" firstAttribute="leading" secondItem="ubS-Zx-1d5" secondAttribute="leading" id="gq3-xc-shs"/>
-                            <constraint firstAttribute="trailing" secondItem="Avs-lK-fbC" secondAttribute="trailing" id="ytK-S0-fHp"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="stackView" destination="Avs-lK-fbC" id="EcZ-aW-wjA"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PEB-TU-uRj" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1272.8" y="70.614692653673174"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="oBJ-fP-rga">
@@ -238,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tZ1-aj-fPL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1323.75" y="881.25"/>
+            <point key="canvasLocation" x="1457" y="71"/>
         </scene>
     </scenes>
     <resources>

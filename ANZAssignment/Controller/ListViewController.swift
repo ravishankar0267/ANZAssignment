@@ -18,6 +18,7 @@ class ListViewController: UIViewController {
     var collectionDatasource = [ListDetails]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "Image List"
         let requestResponseManager = RequestResponseManager()
         requestResponseManager.delegate = self
         requestResponseManager.getSereverResponse(url: urlString)
