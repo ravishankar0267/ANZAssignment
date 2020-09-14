@@ -30,7 +30,7 @@ class ListViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var indexPath = sender as! IndexPath
+        let indexPath = sender as! IndexPath
         let destinationVC = segue.destination as! DetailViewController
         destinationVC.detailModal = collectionDatasource[indexPath.row]
     }
